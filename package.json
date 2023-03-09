@@ -1,0 +1,19 @@
+{
+  "name": "gpt-4-chatbot",
+  "version": "1.0.0",
+  "description": "Lab 4 for COMP 4537",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "author": "Aodhan C.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
