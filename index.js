@@ -4,7 +4,9 @@ const path = require('path');
 const app = express();
 app.use(express.json()); // read JSON BODY
 app.use(express.urlencoded({ extended: true })); // read URL encoded body
-app.use(express.static(path.join(__dirname, 'public'))); // serve static files from public folder
+
+// Serve static files
+app.use(express.static(path.join(__dirname, './')));
 
 const PORT = 3000;
 app.listen(PORT, () => {
